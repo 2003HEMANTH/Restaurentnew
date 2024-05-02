@@ -12,8 +12,7 @@ function NewsLetter() {
         Subscribe To Get The Latest News About Us
       </p>
       <p className="text-secondary text-center">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua.
+        
       </p>
       <div className="flex justify-center mt-12">
         <div className="relative w-full md:max-w-[600px]">
@@ -30,13 +29,13 @@ function NewsLetter() {
         </div>
       </div>
 
-      <div className="hidden md:block absolute left-0 top-0">
+      {/* <div className="hidden md:block absolute left-0 top-0">
         <img src="/images/plane_left.png" alt="plane left" />
       </div>
 
       <div className="hidden md:block absolute right-0 top-0">
         <img src="/images/plane_right.png" alt="plane right" />
-      </div>
+      </div> */}
     </div>
   );
 }

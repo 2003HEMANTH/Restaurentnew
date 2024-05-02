@@ -8,8 +8,8 @@ import JotaiProviders from '@/providers/jotai'
 import { Toaster } from "@/components/ui/toaster"
 
 export const metadata: Metadata = {
-  title: 'Syed Travel',
-  description: 'We provide all your travel needs'
+  title: 'E-Food Restaurent',
+  description: 'We provide all your taste needs'
 }
 
 const inter = Inter({subsets: ["latin"], weight: ["100", "200", "400", "500", "700"]})

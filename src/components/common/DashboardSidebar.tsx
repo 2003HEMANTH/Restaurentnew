@@ -199,13 +199,13 @@ function DashboardSidebar({
             <div>
               <Dialog>
                 <DialogTrigger>
-                  <SidebarElement
+                  {/* <SidebarElement
                     icon="mingcute:bank-card-fill"
                     title="Quick Topup"
                     minimize={minimize}
                     currentPath={currentPath}
                     link={"unknown"}
-                  />
+                  /> */}
                 </DialogTrigger>
                 <DialogContent className="bg-[#303940] boder border-[#303940]">
                   <DialogHeader>
