@@ -96,13 +96,13 @@ function PackageCard({
         <p className="text-[24px] font-bold">{ellipsify(name, 28)}</p>
         <div className="font-semibold text-gray-500 my-4">
           <span className="text-primary text-[18px]">
-            cs. {per_person_price_in_credit}/-
+            ₹ {per_person_price_in_credit}/-
           </span>
-          <span className="ml-2">Per person</span>
+          <span className="ml-2"></span>
         </div>
         <div className="my-4">
           <MainButton
-            text="Book now"
+            text="Order Now"
             classes="w-[100px] h-[30px]"
             isLoading={loading}
             action={() => handleOrder(_id)}
@@ -111,7 +111,7 @@ function PackageCard({
         </div>
 
         <section className="flex gap-8 flex-col md:flex-row">
-          <div className="flex gap-2 items-center text-gray-500">
+          {/* <div className="flex gap-2 items-center text-gray-500">
             <Icon icon="bi:clock" color="#000" className="text-[24px]" />
             <span className="">{total_days} Days</span>
           </div>
@@ -119,7 +119,7 @@ function PackageCard({
           <div className="flex gap-2 items-center text-gray-500">
             <img src="/images/many_users_icon.png" alt="many users" />
             <span className="">{total_people_allowed}</span>
-          </div>
+          </div> */}
 
           <div className="flex gap-2 items-center text-gray-500">
             <Icon icon="mdi:location" className="text-[24px]" />

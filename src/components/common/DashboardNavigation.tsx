@@ -66,7 +66,7 @@ function DashboardNavigation() {
                 </p>
               </div> */}
               <div className="text-black font-[500] flex items-center gap-8">
-                <div className="flex">
+                {/* <div className="flex">
                   {!loading ? (
                     <div>
                       <img src="/images/coin.png" alt="coin" />
@@ -82,7 +82,7 @@ function DashboardNavigation() {
                   ) : (
                     <Skeleton className="mx-4 h-[50px] w-[60px]" />
                   )}
-                </div>
+                </div> */}
                 {loading ? (
                   <Skeleton className="w-[50px] h-[50px] rounded-full" />
                 ) : (
