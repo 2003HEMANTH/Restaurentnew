@@ -34,7 +34,7 @@ export default function DashboardLayout({ children }: { children: ReactNode }) {
 
         <div className="w-full">
           <DashboardNavigation />
-          <ScrollArea className="h-[calc(100vh-300px)] md:h-[calc(100vh-100px)] w-full border bg-white flex-grow">
+          <ScrollArea className="h-[calc(100vh-300px)] md:h-[calc(100vh-100px)] w-full border bg-red-300 flex-grow">
             {children}
           </ScrollArea>
         </div>

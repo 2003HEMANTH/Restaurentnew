@@ -151,7 +151,7 @@ function DashboardSidebar({
     <div
       className={`border border-r-[#F2F2F2] h-screen px-[1.56rem] ${
         !minimize ? "w-[16.6235rem]" : "w-[7rem] max-[767px]:w-[16.6235rem]"
-      } pt-[2rem] bg-white transition-width duration-300 ease-in-out`}
+      } pt-[2rem] bg-gray-200 transition-width duration-300 ease-in-out`}
     >
       <div
         className={`flex ${!minimize ? "justify-between" : "justify-center"}`}

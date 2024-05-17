@@ -45,7 +45,7 @@ function DashboardNavigation() {
   return (
     <div className="sticky top-0 shadow-none z-20 ">
       {/* DESKTOP */}
-      <div className="animate-in fade-in zoom-in bg-white p-4 border border-b-[#F2F2F2]">
+      <div className="animate-in fade-in zoom-in bg-gray-200 p-4 border border-b-[#F2F2F2]">
         <div className=" flex justify-between items-center">
           <div className="md:hidden">
             <Icon
@@ -57,14 +57,14 @@ function DashboardNavigation() {
           </div>
           <section className="md:flex md:w-full md:justify-between px-4 md:px-8">
             <div className="flex justify-between flex-col md:flex-row gap-[1.5rem] select-none w-full">
-              {/* <div>
+              <div>
                 <p className="text-2xl md:text-[28px] font-bold">
                   Welcome Back, {user?.name}
                 </p>
                 <p className="text-secondary">
                   Here is the information about all your orders
                 </p>
-              </div> */}
+              </div>
               <div className="text-black font-[500] flex items-center gap-8">
                 {/* <div className="flex">
                   {!loading ? (

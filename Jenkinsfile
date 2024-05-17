@@ -78,10 +78,10 @@ pipeline {
             }
         }
 
-        stage('.env') {
+        stage('Copy .env.sample to .env') {
     steps {
         script {
-            sh '.env'
+            sh 'cp .env.sample .env'
         }
     }
 }

@@ -1,12 +1,12 @@
 export const sidebarItems = [
-  {
-    icon: "heroicons:chart-bar",
-    title: "Overview",
-    link: "/dashboard",
-  },
+  // {
+  //   icon: "heroicons:chart-bar",
+  //   title: "Overview",
+  //   link: "/dashboard",
+  // },
   {
     icon: "solar:case-outline",
-    title: "Packages",
+    title: "Items",
     link: "/dashboard/packages",
   },
   {
@@ -16,8 +16,13 @@ export const sidebarItems = [
   },
   {
     icon: "octicon:organization-16",
-    title: "Transaction  History",
+    title: "Transactions",
     link: "/dashboard/transactions",
+  },
+  {
+    icon: "solar:user-linear",
+    title: "Add products",
+    link: "/dashboard/addproducts",
   },
   {
     icon: "clarity:cog-line",
