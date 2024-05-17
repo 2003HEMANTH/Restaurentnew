@@ -59,7 +59,7 @@ pipeline {
 
         stage('Install Dependencies for next-app') {
     steps {
-        dir('/var/lib/jenkins/workspace/hemu_test') {
+        dir('/var/lib/jenkins/workspace/my_nextjs_app') {
             sh 'bun install'
         }
     }
